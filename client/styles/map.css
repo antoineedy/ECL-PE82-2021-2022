@@ -1,0 +1,13 @@
+/*Hero*/
+
+#hero{
+    background-color: #F1FAEE;
+    min-height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#map{
+    border-radius: 20px;
+}

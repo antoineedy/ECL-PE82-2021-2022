@@ -1,0 +1,95 @@
+/*Corps de la page*/
+
+#hero{
+    background-image: url('../images/backgrounds/connexion-background.jpg');
+    background-size: cover;
+    background-position: 50% 20%;
+    background-attachment: fixed;
+    min-height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    color: #1D3557;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*Style du formulaire*/
+
+form{
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+    min-height: 500px;
+    min-width: 500px;
+    border: 4px solid #1D3557;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+form h1{
+    font-size: 30px;
+    color: #1D3557;
+}
+
+form a{
+    text-decoration: underline;
+    color: #1D3557;
+}
+
+.div_form{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_form input{
+    height: 40px;
+    width: 300px;
+    margin: 5px;
+}
+
+/*Style input et bouton*/
+
+.border_input{
+    border: 2px solid #1D3557;
+    border-radius: 6px;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.border_input:focus{
+    outline: none;
+    border-color: #1D3557;
+    box-shadow: 0 0 10px #1D3557;
+
+}
+
+.bouton{
+    height: 50px;
+    width: 200px;
+    background-color: #1D3557;
+    color: white;
+    border-radius: 7px;
+    font-size: 20px;
+}
+
+.loader {
+    position : fixed;
+    z-index: 9999;
+    background : url('icon-loader.gif') 50% 50% no-repeat;
+    top : 0px;
+    left : 0px;
+    height : 100%;
+    width : 100%;
+    cursor : wait;
+}

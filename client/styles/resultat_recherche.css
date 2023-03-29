@@ -1,0 +1,88 @@
+/* Général */
+
+.page{
+    display: flex;
+    position: relative;
+    top: 100px;
+}
+
+p{
+    color: #1D3557;
+}
+
+/* Zone Parking */
+
+.allp {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-bottom: 150px;
+    padding: 10px;
+    position: relative;
+    top: 10px;
+    border-radius: 10px ;
+
+}
+
+/* Un seul parking */
+
+.parking{
+    margin: 5px;
+    border: solid #1D3557 2px;
+    border-radius: 7px;
+    width: 500px;
+    height: 170px;
+}
+
+.tete{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(207, 211, 250);
+    border-radius: 7px 7px 0px 0px;
+    padding: 5px;
+    justify-content: space-between;
+    height: 50px;
+}
+
+#score{
+    text-align: right;
+    font-size: 12px;
+}
+
+#name{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#name2{
+    font-size: 15px;
+}
+
+#info{
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 80px;
+}
+
+/* Carte */
+
+#map{
+    border-radius: 20px;
+    width: 60%;
+    height: 550px;
+    margin: 10px;
+    margin-top: 30px;
+    position: fixed;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+#destination{
+    height: 35px;
+}
